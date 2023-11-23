@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-ops-add4/tags). For example,
+
+```javascript
 import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@v0.1.0-esm/index.mjs';
 ```
 
@@ -104,7 +109,7 @@ v = add4( NaN, NaN, NaN, NaN );
 
 var rand = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled-by@esm/index.mjs';
-import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@v0.1.0-esm/index.mjs';
+import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@esm/index.mjs';
 
 var x = filledBy( 100, rand( -50, 50 ) );
 var y = filledBy( x.length, rand( -50, 50 ) );
