@@ -227,6 +227,12 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/ops/add`][@stdlib/math/base/ops/add]</span><span class="delimiter">: </span><span class="description">compute the sum of two double-precision floating-point numbers.</span>
+
 </section>
 
 <!-- /.related -->
@@ -299,6 +305,12 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/math-base-ops-add4/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-ops-add4/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/math-base-ops-add
+
+<!-- </related-links> -->
 
 </section>
 
