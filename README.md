@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@deno/mod.js';
+import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@v0.2.0-deno/mod.js';
 ```
 
 #### add4( x, y, z, w )
@@ -99,7 +99,7 @@ v = add4( NaN, NaN, NaN, NaN );
 ```javascript
 var rand = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled-by@deno/mod.js';
-import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@deno/mod.js';
+import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@v0.2.0-deno/mod.js';
 
 var x = filledBy( 100, rand( -50, 50 ) );
 var y = filledBy( x.length, rand( -50, 50 ) );
