@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-ops-add4/tags). For example,
+
+```javascript
 import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@v0.2.1-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ v = add4( NaN, NaN, NaN, NaN );
 ```javascript
 var rand = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled-by@deno/mod.js';
-import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@v0.2.1-deno/mod.js';
+import add4 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add4@deno/mod.js';
 
 var x = filledBy( 100, rand( -50, 50 ) );
 var y = filledBy( x.length, rand( -50, 50 ) );
